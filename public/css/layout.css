@@ -1,0 +1,79 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ navbar ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.navbar{
+    background-color: rgb(245, 245, 245);
+    display: block;
+    padding: 0;
+}
+.navbar-brand{
+    padding: 0;
+}
+.navbar-brand img{
+    width: 50px;
+    height: 40px;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+.navbar a{
+    color: rgb(100, 100, 100);
+    font-size: 18px;
+}
+.navbar a:hover{
+    color: #c8a97e;
+}
+.act{
+    background-color: #c8a97e;
+}
+.act a{
+    color: #ffffff;
+}
+.act:hover a{
+    color: #ffffff;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ footer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.foot{
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    padding: 80px 0;
+}
+.foot p{
+    color: rgb(184, 184, 184);
+    margin: 30px 0;
+}
+.foot .icon{
+    list-style-type: none;
+    padding: 0;
+}
+.foot .icon li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.foot .time{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+}
+.foot .time li{
+    color: rgb(184, 184, 184);
+    margin-bottom: 5px;
+}
+.foot .time span{
+    margin-right: 30px;
+}
+.foot form input{
+    background-color: rgb(70, 70, 70);
+    border-radius: 0;
+    border: none;
+    height: 50px;
+    width: 200px;
+}
+.foot form button{
+    background-color: rgb(70, 70, 70);
+    border-radius: 0;
+    border: none;
+    height: 50px;
+    width: 200px;
+}

@@ -1,0 +1,107 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ carousel ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.car{
+    width: 100%;
+    overflow: hidden;
+}
+.carousel .carousel-item img{
+    height: 100vh;
+}
+.carousel .carousel-item .lay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.2;
+}
+@media(max-width:576px){
+    .carousel .carousel-item img{
+        height: 60vh;
+    }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ order ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.order{
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0;
+}
+.order ul{
+    list-style-type: none;
+}
+.order ul li{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+.order ul li:hover{
+    background-color: #c8a97e;
+    color: white;
+}
+.order ul li a{
+    display: inline-block;
+    padding: 15px 50px;
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+.order ul li:hover a{
+    color: white;
+}
+@media (max-width:768px){
+    .order ul li{
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 5px;
+    }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ eater ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.eater{
+    width: 100%;
+    overflow: hidden;
+    padding: 0 0 100px 0;
+}
+.eater .item-image{
+    padding: 0;
+}
+.eater img{
+    width: 100%;
+    height: 250px;
+}
+.eater h4{
+    max-height: 25px;
+    overflow: hidden;
+}
+.eater p{
+    max-height: 95px;
+    overflow: hidden;
+}
+.eater span{
+    color: #c8a97e;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+.eater button{
+    display: inline-block;
+    font-size: 18px;
+    background-color: #c8a97e;
+    color: black;
+    border: none;
+}
+.eater button:hover{
+    margin-right: auto;
+    background-color: #383838;
+    color: #c8a97e;
+    border: none;
+}
+.eater button:hover a{
+    color: #c8a97e;
+}
+.eater button a{
+    text-decoration: none;
+    color: black;
+}
+.eater button a:hover{
+    text-decoration: none;
+}

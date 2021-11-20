@@ -1,0 +1,35 @@
+.client-order{
+    width: 100%;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.client-order h1{
+    margin: auto;
+    text-align: center;
+    font-weight: 800;
+    margin: 35px 0;
+}
+.client-order form input{
+    display: block;
+    border-radius: 0;
+    height: 50px;
+}
+.client-order form input:focus{
+    border: 2px solid #c8a97e;
+    box-shadow: none;
+}
+.client-order button{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 0;
+    border: none;
+    background-color: #c8a97e;
+    color: black;
+}
+.client-order button:hover{
+    background-color: #c8a97e;
+    color: rgb(255, 255, 255);
+}
